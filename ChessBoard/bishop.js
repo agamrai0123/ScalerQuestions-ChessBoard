@@ -17,11 +17,11 @@ function getRC(e){
     counterDiag(r,c);
 }
 
-function paintRed(n){
-    console.log(n);
-        let nid = document.getElementById(n);
-        nid.style.backgroundColor="red";
-}
+// function paintRed(n){
+//     console.log(n);
+//         let nid = document.getElementById(n);
+//         nid.style.backgroundColor="red";
+// }
 
 function paintRed(row,col){
         let num = (8 * (row-1)) + col;
